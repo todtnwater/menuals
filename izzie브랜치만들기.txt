@@ -1,0 +1,16 @@
+*izzie 브랜치 만들기
+git branch izzie
+
+*izzie브랜치로 이동
+git checkout izzie
+
+*git log
+HEAD->izzie를 가르키고 있는 것을 확인
+
+*소스 수정 작업진행
+진행후
+git add .
+git commit -m"작업한 내용요약한 메세지"
+
+*변경사항 반영
+git push origin izzie
